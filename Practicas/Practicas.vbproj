@@ -72,6 +72,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bucle.Designer.vb">
+      <DependentUpon>Bucle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bucle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evaluar expresiones.Designer.vb">
+      <DependentUpon>Evaluar expresiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Evaluar expresiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -100,8 +112,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Ordenar numeros.Designer.vb">
+      <DependentUpon>Ordenar numeros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ordenar numeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Bucle.resx">
+      <DependentUpon>Bucle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evaluar expresiones.resx">
+      <DependentUpon>Evaluar expresiones.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -113,6 +137,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenar numeros.resx">
+      <DependentUpon>Ordenar numeros.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
